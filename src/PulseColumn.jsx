@@ -32,7 +32,7 @@ export default class PulseColumn extends Component {
 
   render() {
     return (
-      <div>
+      <div className="four wide column">
         <h1>{this.props.name}</h1>
         <div>
           Active:

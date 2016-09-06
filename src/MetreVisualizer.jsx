@@ -39,8 +39,12 @@ export default class MetreVisualizer extends Component {
       />
     );
     return (
-      <div>
-        {pulseColumns}
+      <div className="ui container">
+        <div className="ui grid">
+          {pulseColumns}
+        </div>
+
+        <div className="ui divider"></div>
 
         <div>
           Meter profile: TODO
