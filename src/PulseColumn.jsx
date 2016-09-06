@@ -23,7 +23,7 @@ export default class PulseColumn extends Component {
   }
 
   handleTempoChange(event) {
-    this.props.changeTempo(this.props.crotchetMultiple * event.target.value)
+    this.props.changeTempo(event.target.value / this.props.crotchetMultiple)
   }
 
   handleIOIChange(event) {
